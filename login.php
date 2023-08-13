@@ -1,19 +1,21 @@
 <?php
 
-session_start();
+echo 'Hello';
 
-$stored_Email = 'princecarlajoc@gmail.com';
-$stored_PassW = 'aceID132329090002';
+// session_start();
 
-$email = $_POST["email"];
-$password = $_POST["password"];
+// $stored_Email = 'princecarlajoc@gmail.com';
+// $stored_PassW = 'aceID132329090002';
 
-if ($email == "$stored_Email" && $password == "$stored_PassW") {
-    header("Location: loggedin.html");
-    exit();
-} else {
-    header("Location: error.html");
-    exit();
-}
+// $email = $_POST["email"];
+// $password = $_POST["password"];
+
+// if ($email == "$stored_Email" && $password == "$stored_PassW") {
+//     header("Location: loggedin.html");
+//     exit();
+// } else {
+//     header("Location: error.html");
+//     exit();
+// }
 
 ?>
